@@ -542,7 +542,7 @@ static final String sFileName = "BookDetail.jsp";
         pitem_id = getParam( request, "item_id");
       }
       else {
-        // Load primary key, form parameters and form fields
+        // Load primary key, form parameters and form fields.
         flditem_id = getParam( request, "item_id");
         transitParamsHidden += "<input type=\"hidden\" name=\"Trn_item_id\" value=\""+getParam( request, "Trn_item_id")+"\">";
         transitParams += "Trn_item_id="+getParam( request, "Trn_item_id")+"&";
