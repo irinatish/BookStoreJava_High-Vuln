@@ -698,7 +698,7 @@ fldproduct_url="Review this book on Amazon.com";
       if ( sAction.equalsIgnoreCase("update") ) { iAction = iupdateAction; }
       if ( sAction.equalsIgnoreCase("delete") ) { iAction = ideleteAction; }
 
-      // Create WHERE statement...
+      // Create WHERE statement
 
 
       String fldUserID="";
